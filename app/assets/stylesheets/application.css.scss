@@ -52,10 +52,21 @@ h1, h2,h3 {
   font-weight: 800;
 }
 
-.navbar-nav > li > a {
+  .navbar-nav > li > a {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   }
+  
+  .navbar-toggle .icon-bar {
+  background-color: white;
+  }
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+    &:hover, &:focus {
+    background: #1CB5E0;
+    }
 }
 
 // Homepage styles
